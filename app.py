@@ -1,9 +1,6 @@
-print("TJ English")
+# Type conversion
 
-print('o-----`')
-print(' || ||')
-
-print('*' * 10)
-
-#################################
-
+hours = input('Enter hours: ')
+rate = input('Enter rate: ')
+pay = float(hours) * float(rate)
+print('Pay: ', pay)
